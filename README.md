@@ -1,18 +1,18 @@
-# naajeehxe.github.io
+# jeehyena.github.io
 
 Personal academic homepage of **Jeehye Na** (MLV Lab, KAIST).
 Plain HTML/CSS/JS — no build step, served directly by GitHub Pages.
 
-Live URL (after the first push): **https://naajeehxe.github.io**
+Live URL (after the first push): **https://jeehyena.github.io**
 
 ---
 
 ## 1. 처음 게시하기 (GitHub Pages)
 
-> GitHub 계정 `naajeehxe` 기준. user 사이트는 레포 이름이 반드시 `naajeehxe.github.io` 여야 합니다.
+> GitHub 계정 `JeehyeNa` 기준. user 사이트는 레포 이름이 반드시 `JeehyeNa.github.io` 여야 합니다.
 
 1. GitHub에서 새 레포 생성: <https://github.com/new>
-   - Repository name: `naajeehxe.github.io`
+   - Repository name: `JeehyeNa.github.io`
    - **Public**, README/.gitignore/license는 추가하지 않음 (비어 있는 레포)
 2. 터미널에서 이 폴더로 이동한 뒤:
 
@@ -22,14 +22,14 @@ Live URL (after the first push): **https://naajeehxe.github.io**
    git add .
    git commit -m "Initial homepage"
    git branch -M main
-   git remote add origin https://github.com/naajeehxe/naajeehxe.github.io.git
+   git remote add origin https://github.com/JeehyeNa/JeehyeNa.github.io.git
    git push -u origin main
    ```
 
 3. 레포 → **Settings → Pages** → *Build and deployment*
    - Source: **Deploy from a branch**
    - Branch: **main** / **/ (root)** → Save
-4. 1~2분 뒤 <https://naajeehxe.github.io> 에서 확인.
+4. 1~2분 뒤 <https://jeehyena.github.io> 에서 확인.
    (user 사이트 `*.github.io` 레포는 보통 push만 해도 자동으로 Pages가 켜집니다.)
 
 이후 수정은 파일 고치고 `git add . && git commit -m "update" && git push` 만 하면 됩니다.
@@ -43,6 +43,7 @@ Live URL (after the first push): **https://naajeehxe.github.io**
 | 논문 추가/수정, News 추가 | `assets/js/data.js` (맨 위가 최신) |
 | 소개글, 관심 분야, Education, Experience, Teaching, 링크 | `index.html` |
 | 색상·글꼴·간격 | `assets/css/style.css` (`:root` 변수) |
+| CSS/JS 수정 후 브라우저 캐시 갱신 | `index.html`에서 `style.css?v=2`, `data.js?v=2`, `main.js?v=2`의 숫자를 하나 올리기 |
 | 프로필 사진 | `assets/img/profile.jpg` 로 저장 (정사각형 추천, 600×600 이상) |
 | 논문 썸네일 | `assets/pubs/<id>.png` — `assets/pubs/README.md` 참고 |
 | CV | `assets/cv.pdf` 로 저장 후 `index.html`에서 CV 링크의 `hidden` 제거 |
