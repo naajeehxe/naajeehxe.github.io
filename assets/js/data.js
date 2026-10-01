@@ -30,11 +30,11 @@ const PUBS = [
   {
     id: "skill-optimization",
     title: "Retrieval-Augmented Skill Optimization via Cross-Harness Adaptation",
-    // TODO: confirm the full author list / equal-contribution marks
-    authors: ["Jaewon Chu", "Ji Soo Lee", "Jeehye Na", "Hyunwoo J. Kim"],
+    authors: ["Jaewon Chu", "Ji Soo Lee", "Jihwan Park", "Dohwan Ko", "Jeehye Na", "Seunghun Lee", "Taehoon Lee", "Minseo Yoon", "Minseok Joo", "Yunyang Xiong", "Hyunwoo J. Kim"],
     venue: "Preprint",
     venueFull: "arXiv preprint, 2026 (under review)",
     year: 2026,
+    note: "with Meta AI",
     links: {
       paper: "https://arxiv.org/abs/2609.38024"
     }
