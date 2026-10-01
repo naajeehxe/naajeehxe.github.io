@@ -48,7 +48,7 @@
     return `
       <li class="pub">
         <div class="thumb placeholder">
-          <img src="${thumb}" alt="" loading="lazy"
+          <img src="${thumb}" alt=""
                onload="this.parentNode.classList.remove('placeholder');"
                onerror="this.remove();">
           <span class="ph-venue" aria-hidden="true">${esc(p.venue)}<br><small>${esc(p.year)}</small></span>

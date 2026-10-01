@@ -28,6 +28,18 @@ const NEWS = [
 
 const PUBS = [
   {
+    id: "skill-optimization",
+    title: "Retrieval-Augmented Skill Optimization via Cross-Harness Adaptation",
+    // TODO: confirm the full author list / equal-contribution marks
+    authors: ["Jaewon Chu", "Ji Soo Lee", "Jeehye Na", "Hyunwoo J. Kim"],
+    venue: "Preprint",
+    venueFull: "arXiv preprint, 2026 (under review)",
+    year: 2026,
+    links: {
+      paper: "https://arxiv.org/abs/2609.38024"
+    }
+  },
+  {
     id: "agentgrad",
     title: "AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems",
     authors: ["Jaewon Chu", "Jinwoo Seo", "Jaewon Cho", "Jeehye Na", "Yunyang Xiong", "Youngdae Kim", "Hyunwoo J. Kim"],
